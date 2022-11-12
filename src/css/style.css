@@ -1,0 +1,58 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-background-view);
+    font-family: 'Manrope', sans-serif;
+    color: var(--color-text);
+}
+#advice-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-background-card);
+    border-radius: 10px;
+    max-width: 450px;
+    margin: 20px;
+    padding: 40px 20px;
+    position: relative;
+}
+#advice-card #tittle{
+    color: var(--color-prime);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+#advice-card #advice{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+#advice-card .line{
+    padding: 20px;
+    max-width: 450px;
+}
+#advice-card #btn{
+    position: absolute;
+    top: 92%;
+    background-color: var(--color-prime);
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#advice-card #btn:hover{
+    box-shadow: 0px 0px 20px 2px var(--color-prime);
+}
+#advice-card #btn .btn-image {
+    width: 20px;
+    height: 20px;
+}
